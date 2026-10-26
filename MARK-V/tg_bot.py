@@ -2,16 +2,8 @@ import os, asyncio, threading
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters
 
-import json
-_cfg = {}
-try:
-    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "tg_config.json"), encoding="utf-8-sig") as f:
-        _cfg = json.load(f)
-except Exception:
-    pass
-
-TOKEN = "".join(str(_cfg.get("token") or os.environ.get("TG_TOKEN") or "").split())
-MY_ID = int("".join(str(_cfg.get("user_id") or os.environ.get("TG_USER_ID") or "0").split()))
+TOKEN = "".join(os.environ.get("TG_TOKEN", "").split())
+MY_ID = int("".join(os.environ.get("TG_USER_ID", "0").split()))
 
 
 _app = None

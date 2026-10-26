@@ -1,56 +1,8 @@
 {
-  "identity": {
-    "name": {
-      "value": "Mohammed Raheel (pronounced Rahil)",
-      "updated": "2026-10-17"
-    },
-    "preferred_name": {
-      "value": "Raheel",
-      "updated": "2026-10-17"
-    },
-    "username": {
-      "value": "Rafael or Rafaelrocks9",
-      "updated": "2026-10-17"
-    }
-  },
-  "preferences": {
-    "favorite_food": {
-      "value": "pizza",
-      "updated": "2026-10-17"
-    },
-    "first_greeting_protocol": {
-      "value": "On first greeting, provide brief weather summary for user's area and very brief previous day's summary. Only speak the information, do not open browser or show visuals.",
-      "updated": "2026-10-17"
-    },
-    "preferred_weather_location": {
-      "value": "Marathahalli",
-      "updated": "2026-10-17"
-    },
-    "greeting_protocol": {
-      "value": "say hey raheel wsg hows ur day been??",
-      "updated": "2026-10-18"
-    },
-    "greeting_protocol_instruction": {
-      "value": "Do not include weather summary in greeting",
-      "updated": "2026-10-18"
-    }
-  },
+  "identity": {},
+  "preferences": {},
   "projects": {},
-  "relationships": {
-    "friend_name": {
-      "value": "Skele",
-      "updated": "2026-10-17"
-    }
-  },
+  "relationships": {},
   "wishes": {},
-  "notes": {
-    "greeting_protocol": {
-      "value": "Match user's vibe and alter greeting accordingly. Respond informally to informal greetings (e.g., 'Yo'), and formally to formal ones. Do not include weather summary.",
-      "updated": "2026-10-19"
-    },
-    "greeting_style": {
-      "value": "informal",
-      "updated": "2026-10-23"
-    }
-  }
+  "notes": {}
 }
